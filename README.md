@@ -18,4 +18,4 @@ How to install and run:
 
 6. ```docker run -it kali-rtsp /bin/bash```
 
-After starting the container, the nano editor will open. You should enter the IP ranges there, then save the file and run the script (How to run the script, see the repository https://github.com/UaLuis/RTSPScanner.git.
+After starting the container, the nano editor will open. You should enter the IP ranges there, then save the file and run the script (How to run the script, see the repository https://github.com/UaLuis/RTSPScanner.git
