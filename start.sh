@@ -4,6 +4,9 @@ service tor start
 sleep 1
 
 service tor status
+proxychains curl ident.me
+
+sleep 2
 nano target.txt
 
 sleep 1 
