@@ -11,7 +11,7 @@ RUN pip3 install -r requirements.txt
 RUN chmod +x rtspscan.sh
 
 COPY start.sh
-RUN chmod +x start.sh
+RUN chmod +x start.sh .
 
 # Change CMD to the correct default command if needed; here, for example, it opens nano
 ENTRYPOINT ["./start.sh"]
